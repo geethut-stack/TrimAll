@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TrimAll</string>
+    <string name="widget_description">One tap: trim every mount and run F2FS garbage collection.</string>
+</resources>
