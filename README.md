@@ -58,6 +58,9 @@ Raise the dirty-segment threshold, for example to 2000, so it stops earlier.
 Turn off “F2FS garbage collection first” and use trim only. This is the lightest option and still gets you most of the benefit.
 Run it while charging, and no more than once a day or so.
 
+## Download
+Download from [Releases](../../releases)
+
 
 ## Build
 
