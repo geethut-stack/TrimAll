@@ -20,6 +20,18 @@ Root-based storage maintenance for Android. Runs `fstrim` on every block-backed 
 - **Optional F2FS GC.** For each F2FS mount: set `gc_urgent` to 1, wait until dirty segments drop to a threshold or a timeout hits, then set it back to 0. `gc_urgent` is always reset, even if the run is cancelled.
 - **One-tap widget.** One tap runs the whole action in a foreground service without opening the app. It shows the running stage, or the last result and how long ago it ran.
 - **Verbose logging and history.** Every shell command, exit code, stdout, and stderr is logged, plus device info and GC polling. Each run is saved with per-mount results. Export zips the logs and history for sharing.
+## Screenshots
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/e2e33a4d-f3f0-4c7a-9802-b29e6247e77e" width="100%" alt="Screenshot 1" /></td>
+    <td><img src="https://github.com/user-attachments/assets/4e9e9995-8250-4f9f-8c64-831c606d6a7c" width="100%" alt="Screenshot 2" /></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/3ca0c827-c247-4bd1-8a0e-11ce95a68f9d" width="100%" alt="Screenshot 3" /></td>
+    <td><img src="https://github.com/user-attachments/assets/8bd54847-ae55-42ec-945e-cdc494c1f76c" width="100%" alt="Screenshot 4" /></td>
+  </tr>
+</table>
+
 
 ## Settings
 
